@@ -5,10 +5,10 @@
 2. 安装Python官网的sdk： https://www.python.org/downloads/release/python-372/
 
 3. 设置Python一些环境变量
-``` ini
+``` bash
 Path:
-D:\Program Files (x86)\Python\Python37-32 //python 安装路径
-D:\Program Files (x86)\Python\Python37-32\Scripts //pip 等脚本安装路径
+"D:\Program Files (x86)\Python\Python37-32" ##python 安装路径
+"D:\Program Files (x86)\Python\Python37-32\Scripts" ##pip 等脚本安装路径
 
 ```
 >配置好环境变量 执行`python -V` 检查是否安装正确
