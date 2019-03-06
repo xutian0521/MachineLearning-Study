@@ -17,11 +17,12 @@ python ##进入Python命令行
 exit() ##退出Python命令行
 ```
 4. 配置vscode 
-> ctrl+shift+p , 输入Python: select interpreter, 选择你安装的Python的SDK路径 如："python.pythonPath": "D:\\Program Files (x86)\\Python\\Python37-32\\python.exe"
-> 安装ptvsd模块 (调试模板) cmd 输入命令安装： pip install ptvsd **这里注意pip 可执行文件在D:\Program Files (x86)\Python\Python37-32\Scripts 目录下,需要配置环境变量, 还有安装命令在cmd里执行, 不要在python 执行**
+1. `ctrl+shift+p` , 输入`Python: select interpreter`, 选择你安装的Python的SDK路径 .vscode/settings.json =>`"python.pythonPath": "D:\\Program Files (x86)\\Python\\Python37-32\\python.exe"`
+2. 安装ptvsd模块 (调试模板) cmd 输入命令安装： `pip install ptvsd` 
+>**这里注意pip 可执行文件在`D:\Program Files (x86)\Python\Python37-32\Scripts` 目录下,需要配置环境变量, 还有安装命令在cmd里执行, 不要在python 执行**
 
-
+#### 调试
+1. 选着vscode 默认初始配置：`Python: Current File (External Terminal)`
 
 #### 参考资料
 1. VSCode搭建Python环境及远程调试方法 ：https://blog.csdn.net/zzzzllll2006/article/details/83014940
-2. NumPy 安装 ：http://www.runoob.com/numpy/numpy-install.html
